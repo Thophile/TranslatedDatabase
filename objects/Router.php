@@ -124,7 +124,7 @@ class Router
     
 
     //call the method that match the route with arguments
-    echo call_user_func_array($method, array($this->request, $this->db, $this->auth));
+    echo call_user_func_array($method, array($this->request, $this->db));
   }
 
   /**
